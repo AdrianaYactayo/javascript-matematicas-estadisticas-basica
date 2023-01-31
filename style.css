@@ -1,0 +1,126 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --gris-dark:#8c8c8c;
+    --gris: #adacac;
+    --shinee:#5dc1b9;
+    --shinee-ligth:#8ae0db;
+    --amarillo:#e6a74a;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+  body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+
+  }
+
+  nav{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: var(--gris);
+  }
+
+  nav img{
+    height: 60px;
+    width: 60px;
+    padding: 0 20px;
+  }
+
+  nav img:hover{
+    transform: scale(1.1);
+    transition: all 500ms;
+  }
+  nav h1:hover{
+    transform: scale(1.1);
+    transition: all 500ms;
+  }
+
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    gap: 70px;
+    place-content: center;
+    margin-top: 10px;
+    
+  }
+  .product-card {
+    width: 250px;
+    background: var(--gris);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    background: var(--very-light-pink);
+  }
+
+  .product-card img:hover{
+    transform: rotate(180deg);
+    transition: all 500ms;
+  }
+
+  .product-card .product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+  }
+
+.button-calcular{
+background: var(--shinee);
+color: var(--white);
+border: none;
+padding: 5px;
+border-radius: 5px;
+cursor: pointer;
+ }
+ .button-calcular:hover{
+    background: var(--shinee-ligth);
+    color: var(--white);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+     }
+
+ .title-figure{
+    text-align: center;
+    font-weight: bold;
+    color: var(--white);
+    background: var(--amarillo);
+    width: 100%;
+    border-radius: 5px;
+ }
+ .resultado{
+background: var(--white);
+border-radius: 8px;
+ }
+ .resultado div{
+    padding: 5px;
+     }
+
+     .message{
+        padding: 20px 50px;
+    
+        font-weight: bold;
+     }
+     .message p{
+        margin: 0;
+        padding-top: 10px;;
+     }
+
+ 
+     .product-info p{
+        margin: 0;
+        padding: 8px;
+     }

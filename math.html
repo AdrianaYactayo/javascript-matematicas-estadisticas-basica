@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Taller de Matemáticas con JavaScript</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <h1>Taller de Matemáticas con JavaScript</h1>
+        <img src="./javascript.png" alt="">
+    </nav>
+   <div class="message">
+    <p>Aprende a trabajar con matemáticas usando código JavaScript</p>
+   </div>
+    
+
+    
+  <section class="main-container">
+    <div class="cards-container">
+
+        <div class="product-card">
+            <img src="./cubo.png" alt="">
+            <div class="product-info">
+              <div>
+                <div class="title-figure">Cuadrado</div>
+                <p>Ingrese el lado del cuadrado</p>
+                <input id="lado" type="text">
+                <button id="btnCalcular" class="button-calcular" type="button">Calcular</button>
+                <p id="resultCuadrado"></p>
+
+              </div>
+            </div>
+        </div>
+
+
+        <div class="product-card">
+            <img src="./triangulo.png" alt="">
+            <div class="product-info">
+    
+                <div class="title-figure">Triangulo</div>
+                <p>Ingrese el lado 1 del Triangulo</p>
+                <input id="lado1Triangulo" type="text">
+                <p>Ingrese el lado 2 del Triangulo</p>
+                <input id="lado2Triangulo" type="text">
+                <p>Ingrese la base del Triangulo</p>
+                <input id="baseTriangulo" type="text">
+                <p>Ingrese la altura del Triangulo</p>
+                <input id="alturaTriangulo" type="text">
+                <p></p>
+                <button id="btnCalcularTriangulo" class="button-calcular"
+                 type="button">Calcular</button>
+                <p id="resultTriangulo"></p>
+
+    
+            </div>
+        </div>
+    </div>
+  </section>
+   
+
+    
+    <script src="./math.js"></script>
+</body>
+</html>
